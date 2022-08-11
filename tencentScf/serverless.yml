@@ -49,5 +49,4 @@ inputs:
       Ray_LiveLotteryTaskConfig__AutoGroupFollowings: true
       Ray_UnfollowBatchedTaskConfig__GroupName: 天选时刻
       Ray_UnfollowBatchedTaskConfig__Count: -1
-      
-     
+      Ray_LiveLotteryTaskConfig__ISOPENLIVELOTTERYTASK: true
