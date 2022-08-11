@@ -40,4 +40,14 @@ inputs:
           argument: UnfollowBatched
   environment:
     variables: # 根据自己的需要修改
-      Ray_BiliBiliCookies__1: 123 # cookie，必填
+      Ray_BiliBiliCookies__1: buvid3=D4875E4A-BD34-8729-4B95-88241133EA0703598infoc; _uuid=3C9D9717-9BFF-3ED1-D184-6499E312610B504033infoc; buvid4=FCA2D4CE-7E00-6C2E-A80C-EAE7FF4871ED04605-122080611-5h7dUImaJ50aQHeO0LV4Ow%3D%3D; fingerprint=092a8c182cddeeb1d9cb96cc6e0d408b; buvid_fp_plain=undefined; buvid_fp=092a8c182cddeeb1d9cb96cc6e0d408b; sid=evnjm0pv; DedeUserID=14350364; DedeUserID__ckMd5=7bc1589fa70cd5cf; SESSDATA=0fbcf094%2C1675308435%2C50927*81; bili_jct=b3dd46f1695743ece24654cd0389ef8f; innersign=0; i-wanna-go-back=-1; b_ut=5; b_lsid=3867B37D_182853E8AEF; b_timer=%7B%22ffp%22%3A%7B%22333.400.fp.risk_D4875E4A%22%3A%22182853E8C10%22%2C%22333.130.fp.risk_D4875E4A%22%3A%221827130E2FB%22%7D%7D # cookie，必填
+      Ray_BiliBiliCookies__2: buvid3=48FEF740-EE5D-7906-E9ED-6A343021128008439infoc; _uuid=2FFF979D-623E-9AD4-4F21-5256E98F907010251infoc; video_page_version=v_old_home_6; rpdid=|(J|)lu~Yu)k0J'uYJ~|l|Yuk; fingerprint=0313096c18fa1db1214b9beed4f88a67; buvid_fp_plain=undefined; CURRENT_BLACKGAP=0; blackside_state=0; CURRENT_QUALITY=112; CURRENT_FNVAL=4048; buvid4=52C33B48-09E7-1085-EFF9-FC329CC4492520395-022042610-ydify6rEqFT0cInHzHHrEQ%3D%3D; SESSDATA=d5643d3b%2C1675648102%2C8d89d%2A81; bili_jct=2eebad665f7dd498362898a60196d489; DedeUserID=672368440; DedeUserID__ckMd5=7d371e98e2cbddfd; sid=6ert7im6; buvid_fp=0313096c18fa1db1214b9beed4f88a67; PVID=1; innersign=0; i-wanna-go-back=-1; b_ut=5; b_lsid=F413A8B5_1828A9F4B45; b_timer=%7B%22ffp%22%3A%7B%22333.1007.fp.risk_48FEF740%22%3A%221828A9F5D65%22%7D%7D # cookie，必填
+      Ray_Serilog__WriteTo__9__Args__token: bb709e69d47f4a7abc5247970ae6dacc # 推送
+      Ray_Security__IntervalSecondsBetweenRequestApi: 20 
+      Ray_Security__RandomSleepMaxMin: 20
+      Ray_LiveLotteryTaskConfig__ExcludeAwardNames: 舰|船|航海|代金券|自拍|照|写真|图
+      Ray_LiveLotteryTaskConfig__AutoGroupFollowings: true
+      Ray_UnfollowBatchedTaskConfig__GroupName: 天选时刻
+      Ray_UnfollowBatchedTaskConfig__Count: -1
+      
+     
